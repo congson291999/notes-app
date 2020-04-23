@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#F31010"
+        android:textSize="28sp"
+        android:background="#ffffcc"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Thêm ghi chú" />
+
+    <EditText
+        android:id="@+id/edtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="#f0f0f0"
+        android:hint="Tiêu đề"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:background="#f0f0f0"
+        android:hint="Nội dung"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTag"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#f0f0f0"
+        android:hint="Tag"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:textSize="24sp"
+        android:background="#3cb371"
+        android:text="Thêm" />
+</LinearLayout>
